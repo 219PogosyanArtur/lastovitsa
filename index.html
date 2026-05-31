@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ЦСЭ СтройПроектЭкспертиза — Техническое обследование зданий и сооружений</title>
+  <meta name="description" content="Профессиональное техническое обследование и экспертиза зданий с 2010 года. Собственная лаборатория, 78 видов оборудования. Заключение за 3–7 дней." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ─── HEADER ─────────────────────────────────────────────── -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <div class="header__logo">
+        <span class="logo-abbr">ЦСЭ</span>
+        <span class="logo-full">СтройПроектЭкспертиза</span>
+      </div>
+      <nav class="header__nav" id="nav">
+        <a href="#services">Услуги</a>
+        <a href="#why">Преимущества</a>
+        <a href="#process">Как работаем</a>
+        <a href="#pricing">Цены</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+      <a href="tel:+79299271981" class="btn btn--outline header__phone">+7 (929) 927-19-81</a>
+      <button class="burger" id="burger" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ─── HERO ────────────────────────────────────────────────── -->
+  <section class="hero">
+    <div class="hero__overlay"></div>
+    <div class="container hero__content">
+      <p class="hero__eyebrow">Аккредитованная экспертная организация · Член СРО · С 2010 года</p>
+      <h1 class="hero__title">Техническое обследование<br />зданий и сооружений</h1>
+      <p class="hero__subtitle">
+        Выдаём официальное заключение за <strong>3–7 рабочих дней</strong>. Работаем по всей России и СНГ — 27 городов присутствия. Собственная лаборатория с 78 видами оборудования.
+      </p>
+      <div class="hero__actions">
+        <a href="#lead" class="btn btn--gold">Получить бесплатную консультацию</a>
+        <a href="#services" class="btn btn--ghost">Посмотреть услуги</a>
+      </div>
+      <div class="hero__trust">
+        <div class="trust-item">
+          <strong>15+</strong>
+          <span>лет на рынке</span>
+        </div>
+        <div class="trust-item">
+          <strong>3 000+</strong>
+          <span>объектов обследовано</span>
+        </div>
+        <div class="trust-item">
+          <strong>27</strong>
+          <span>городов присутствия</span>
+        </div>
+        <div class="trust-item">
+          <strong>78</strong>
+          <span>видов оборудования</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── ALERT STRIP ─────────────────────────────────────────── -->
+  <div class="alert-strip">
+    <div class="container">
+      <span class="alert-strip__icon">⚡</span>
+      <span>Только в июне: <strong>бесплатный выезд специалиста</strong> для предварительной оценки объекта в Москве и МО</span>
+      <a href="#lead" class="alert-strip__cta">Записаться сейчас</a>
+    </div>
+  </div>
+
+  <!-- ─── SERVICES ─────────────────────────────────────────────── -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Что мы делаем</p>
+        <h2 class="section-title">Полный спектр экспертных услуг</h2>
+        <p class="section-desc">От первичного осмотра до судебной экспертизы — закрываем любые задачи технического обследования</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card service-card--featured">
+          <div class="service-card__icon">🏗️</div>
+          <h3>Обследование зданий и сооружений</h3>
+          <p>Комплексная диагностика несущих конструкций, фундаментов, кровли. Официальное заключение с фото-фиксацией и расчётами.</p>
+          <span class="service-card__price">от 15 000 ₽</span>
+          <a href="#lead" class="btn btn--gold btn--sm">Оставить заявку</a>
+        </div>
+        <div class="service-card">
+          <div class="service-card__icon">🔨</div>
+          <h3>Обследование под капитальный ремонт</h3>
+          <p>Техническое заключение, необходимое для получения разрешения на капремонт и согласования проектной документации.</p>
+          <span class="service-card__price">от 50 000 ₽</span>
+          <a href="#lead" class="btn btn--outline-dark btn--sm">Узнать подробнее</a>
+        </div>
+        <div class="service-card">
+          <div class="service-card__icon">🏛️</div>
+          <h3>Обследование под реконструкцию</h3>
+          <p>Анализ возможности надстройки, изменения планировки, увеличения нагрузок. Расчёт несущей способности конструкций.</p>
+          <span class="service-card__price">от 60 000 ₽</span>
+          <a href="#lead" class="btn btn--outline-dark btn--sm">Узнать подробнее</a>
+        </div>
+        <div class="service-card">
+          <div class="service-card__icon">🔥</div>
+          <h3>Оценка систем пожарной безопасности</h3>
+          <p>Проверка соответствия объекта требованиям пожарной безопасности. Независимая экспертиза для госструктур и частных заказчиков.</p>
+          <span class="service-card__price">По запросу</span>
+          <a href="#lead" class="btn btn--outline-dark btn--sm">Узнать подробнее</a>
+        </div>
+        <div class="service-card">
+          <div class="service-card__icon">🏺</div>
+          <h3>Объекты культурного наследия</h3>
+          <p>Специализированное обследование ОКН с учётом требований законодательства. Допуск к работе с историческими объектами.</p>
+          <span class="service-card__price">По запросу</span>
+          <a href="#lead" class="btn btn--outline-dark btn--sm">Узнать подробнее</a>
+        </div>
+        <div class="service-card">
+          <div class="service-card__icon">⚖️</div>
+          <h3>Судебная строительная экспертиза</h3>
+          <p>Официальные заключения для судебных разбирательств. Участие эксперта в судебных заседаниях. Опыт в государственных и арбитражных судах.</p>
+          <span class="service-card__price">По запросу</span>
+          <a href="#lead" class="btn btn--outline-dark btn--sm">Узнать подробнее</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── WHY US ─────────────────────────────────────────────── -->
+  <section class="section section--dark" id="why">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow section-eyebrow--light">Почему выбирают нас</p>
+        <h2 class="section-title section-title--light">7 причин доверить объект нам</h2>
+      </div>
+      <div class="why-grid">
+        <div class="why-item">
+          <div class="why-item__num">01</div>
+          <h4>Работаем с 2010 года</h4>
+          <p>Более 15 лет специализируемся исключительно на техническом обследовании — это наш единственный профиль.</p>
+        </div>
+        <div class="why-item">
+          <div class="why-item__num">02</div>
+          <h4>Собственная лаборатория</h4>
+          <p>78 видов поверенного оборудования в собственном парке. Не зависим от субподрядчиков и сторонних лабораторий.</p>
+        </div>
+        <div class="why-item">
+          <div class="why-item__num">03</div>
+          <h4>Заключение за 3–7 дней</h4>
+          <p>Мы понимаем, что заказчики не могут ждать месяцами. Гарантируем оперативные сроки выдачи документации.</p>
+        </div>
+        <div class="why-item">
+          <div class="why-item__num">04</div>
+          <h4>Аккредитация и СРО</h4>
+          <p>Аккредитованы на проведение негосударственной экспертизы. Наши заключения принимают госорганы и суды.</p>
+        </div>
+        <div class="why-item">
+          <div class="why-item__num">05</div>
+          <h4>27 городов присутствия</h4>
+          <p>Офисы по всей России и СНГ. Командируем специалистов без наценок для удалённых объектов.</p>
+        </div>
+        <div class="why-item">
+          <div class="why-item__num">06</div>
+          <h4>Фиксированная цена</h4>
+          <p>Смета согласуется до начала работ. Никаких «доработок» и неожиданных доплат по факту.</p>
+        </div>
+        <div class="why-item">
+          <div class="why-item__num">07</div>
+          <h4>Полная юридическая сила</h4>
+          <p>Заключения подписываются сертифицированными экспертами и имеют полную юридическую силу для любых инстанций.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── PROCESS ──────────────────────────────────────────────── -->
+  <section class="section" id="process">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Просто и прозрачно</p>
+        <h2 class="section-title">Как мы работаем</h2>
+      </div>
+      <div class="process-steps">
+        <div class="process-step">
+          <div class="process-step__circle">1</div>
+          <div class="process-step__line"></div>
+          <h4>Заявка и консультация</h4>
+          <p>Оставляете заявку — специалист связывается в течение 30 минут, уточняет детали и озвучивает предварительную стоимость.</p>
+        </div>
+        <div class="process-step">
+          <div class="process-step__circle">2</div>
+          <div class="process-step__line"></div>
+          <h4>Выезд на объект</h4>
+          <p>Инженер выезжает на объект, проводит визуальный осмотр и инструментальную диагностику с применением спецоборудования.</p>
+        </div>
+        <div class="process-step">
+          <div class="process-step__circle">3</div>
+          <div class="process-step__line"></div>
+          <h4>Камеральная обработка</h4>
+          <p>Анализируем данные, проводим расчёты, формируем технический отчёт с фотоматериалами и дефектными ведомостями.</p>
+        </div>
+        <div class="process-step">
+          <div class="process-step__circle">4</div>
+          <div class="process-step__line"></div>
+          <h4>Выдача заключения</h4>
+          <p>Передаём заключение с подписями аттестованных экспертов. При необходимости — разъясняем выводы и рекомендации.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── PRICING ──────────────────────────────────────────────── -->
+  <section class="section section--light" id="pricing">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Прозрачные тарифы</p>
+        <h2 class="section-title">Стоимость услуг</h2>
+        <p class="section-desc">Точная цена определяется после осмотра объекта — ниже ориентировочные значения</p>
+      </div>
+      <div class="pricing-grid">
+        <div class="pricing-card">
+          <h3>Первичное обследование</h3>
+          <div class="pricing-card__price">от <strong>15 000 ₽</strong></div>
+          <ul>
+            <li>Визуальный осмотр конструкций</li>
+            <li>Фотофиксация дефектов</li>
+            <li>Дефектная ведомость</li>
+            <li>Краткое техническое заключение</li>
+            <li>Срок: 3–5 дней</li>
+          </ul>
+          <a href="#lead" class="btn btn--gold">Оставить заявку</a>
+        </div>
+        <div class="pricing-card pricing-card--popular">
+          <div class="pricing-card__badge">Популярный</div>
+          <h3>Обследование под капремонт</h3>
+          <div class="pricing-card__price">от <strong>50 000 ₽</strong></div>
+          <ul>
+            <li>Инструментальное обследование</li>
+            <li>Поверочные расчёты конструкций</li>
+            <li>Полный технический отчёт</li>
+            <li>Заключение для согласования</li>
+            <li>Срок: 5–7 дней</li>
+          </ul>
+          <a href="#lead" class="btn btn--gold">Оставить заявку</a>
+        </div>
+        <div class="pricing-card">
+          <h3>Обследование под реконструкцию</h3>
+          <div class="pricing-card__price">от <strong>60 000 ₽</strong></div>
+          <ul>
+            <li>Полное инструментальное обследование</li>
+            <li>Расчёт несущей способности</li>
+            <li>Проект усиления конструкций</li>
+            <li>Согласование с госорганами</li>
+            <li>Срок: 7–14 дней</li>
+          </ul>
+          <a href="#lead" class="btn btn--gold">Оставить заявку</a>
+        </div>
+      </div>
+      <p class="pricing-note">* Стоимость уточняется индивидуально с учётом площади объекта, его состояния и сложности задачи</p>
+    </div>
+  </section>
+
+  <!-- ─── LEAD FORM ─────────────────────────────────────────────── -->
+  <section class="section lead-section" id="lead">
+    <div class="container lead-inner">
+      <div class="lead-text">
+        <p class="section-eyebrow section-eyebrow--light">Бесплатно и без обязательств</p>
+        <h2 class="section-title section-title--light">Получите расчёт стоимости за 30 минут</h2>
+        <p class="lead-desc">Оставьте заявку — специалист перезвонит, ответит на вопросы и рассчитает точную стоимость работ для вашего объекта. Это бесплатно и ни к чему не обязывает.</p>
+        <ul class="lead-benefits">
+          <li>✓ Консультация специалиста бесплатно</li>
+          <li>✓ Выезд на объект в Москве бесплатно</li>
+          <li>✓ Перезвоним в течение 30 минут</li>
+          <li>✓ Работаем без выходных</li>
+        </ul>
+      </div>
+      <form class="lead-form" id="leadForm">
+        <h3>Оставить заявку</h3>
+        <div class="form-group">
+          <label for="name">Ваше имя *</label>
+          <input type="text" id="name" name="name" placeholder="Иванов Иван" required />
+        </div>
+        <div class="form-group">
+          <label for="phone">Телефон *</label>
+          <input type="tel" id="phone" name="phone" placeholder="+7 (___) ___-__-__" required />
+        </div>
+        <div class="form-group">
+          <label for="service">Тип услуги</label>
+          <select id="service" name="service">
+            <option value="">Выберите услугу...</option>
+            <option>Обследование зданий</option>
+            <option>Обследование под капремонт</option>
+            <option>Обследование под реконструкцию</option>
+            <option>Пожарная безопасность</option>
+            <option>Объект культурного наследия</option>
+            <option>Судебная экспертиза</option>
+            <option>Другое</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Описание объекта</label>
+          <textarea id="message" name="message" rows="3" placeholder="Тип объекта, площадь, город..."></textarea>
+        </div>
+        <button type="submit" class="btn btn--gold btn--full">Отправить заявку →</button>
+        <p class="form-policy">Нажимая кнопку, вы соглашаетесь с <a href="#">политикой конфиденциальности</a></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ─── GEOGRAPHY ─────────────────────────────────────────────── -->
+  <section class="section" id="geography">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Где мы работаем</p>
+        <h2 class="section-title">Присутствуем в 27 городах</h2>
+      </div>
+      <div class="geo-cities">
+        <span>Москва</span><span>Санкт-Петербург</span><span>Казань</span><span>Новосибирск</span>
+        <span>Екатеринбург</span><span>Нижний Новгород</span><span>Ростов-на-Дону</span><span>Самара</span>
+        <span>Уфа</span><span>Красноярск</span><span>Воронеж</span><span>Пермь</span>
+        <span>Волгоград</span><span>Краснодар</span><span>Саратов</span><span>Тюмень</span>
+        <span>Тольятти</span><span>Ижевск</span><span>Барнаул</span><span>Ульяновск</span>
+        <span>Иркутск</span><span>Хабаровск</span><span>Ярославль</span><span>Владивосток</span>
+        <span>Махачкала</span><span>Минск</span><span>Алматы</span>
+      </div>
+      <p class="geo-note">Не нашли свой город? Обратитесь — мы командируем специалиста на любой объект России и СНГ.</p>
+    </div>
+  </section>
+
+  <!-- ─── CONTACTS ──────────────────────────────────────────────── -->
+  <section class="section section--dark" id="contacts">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow section-eyebrow--light">Связаться с нами</p>
+        <h2 class="section-title section-title--light">Контакты</h2>
+      </div>
+      <div class="contacts-grid">
+        <div class="contact-item">
+          <div class="contact-item__icon">📍</div>
+          <h4>Головной офис</h4>
+          <p>Проспект Мира, д. 89<br />г. Москва</p>
+        </div>
+        <div class="contact-item">
+          <div class="contact-item__icon">📞</div>
+          <h4>Телефоны</h4>
+          <p><a href="tel:+79299271981">+7 (929) 927-19-81</a><br /><a href="tel:+79253714813">+7 (925) 371-48-13</a></p>
+        </div>
+        <div class="contact-item">
+          <div class="contact-item__icon">✉️</div>
+          <h4>Email</h4>
+          <p><a href="mailto:lastovitsa@list.ru">lastovitsa@list.ru</a><br /><a href="mailto:lastovitcsa@mail.ru">lastovitcsa@mail.ru</a></p>
+        </div>
+        <div class="contact-item">
+          <div class="contact-item__icon">🕒</div>
+          <h4>Режим работы</h4>
+          <p>Пн–Пт: 9:00 – 19:00<br />Сб–Вс: по договорённости</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ────────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__logo">
+        <span class="logo-abbr">ЦСЭ</span>
+        <span class="logo-full">СтройПроектЭкспертиза</span>
+      </div>
+      <p class="footer__copy">© 2010–2026 ООО «ЦСЭ СтройПроектЭкспертиза». Все права защищены.</p>
+      <p class="footer__copy">Аккредитованная организация. Член СРО.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Sticky header shadow
+    const header = document.getElementById('header');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('header--scrolled', window.scrollY > 50);
+    });
+
+    // Burger menu
+    const burger = document.getElementById('burger');
+    const nav = document.getElementById('nav');
+    burger.addEventListener('click', () => {
+      nav.classList.toggle('nav--open');
+      burger.classList.toggle('burger--active');
+    });
+    nav.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        nav.classList.remove('nav--open');
+        burger.classList.remove('burger--active');
+      });
+    });
+
+    // Form submit (demo)
+    document.getElementById('leadForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const btn = this.querySelector('button[type="submit"]');
+      btn.textContent = '✓ Заявка отправлена!';
+      btn.style.background = '#27ae60';
+      btn.disabled = true;
+      setTimeout(() => {
+        btn.textContent = 'Отправить заявку →';
+        btn.style.background = '';
+        btn.disabled = false;
+        this.reset();
+      }, 4000);
+    });
+
+    // Phone mask
+    const phoneInput = document.getElementById('phone');
+    phoneInput.addEventListener('input', function() {
+      let v = this.value.replace(/\D/g, '');
+      if (v.startsWith('7') || v.startsWith('8')) v = v.slice(1);
+      let r = '+7';
+      if (v.length > 0) r += ' (' + v.slice(0, 3);
+      if (v.length >= 3) r += ') ' + v.slice(3, 6);
+      if (v.length >= 6) r += '-' + v.slice(6, 8);
+      if (v.length >= 8) r += '-' + v.slice(8, 10);
+      this.value = r;
+    });
+  </script>
+
+</body>
+</html>
